@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @font-face {
+            font-family: OpenSans;
+            src: url(fonts/OpenSans-Regular.ttf);
+            font-style: normal; 
+            font-weight: normal; 
+        }
+        @font-face {
+            font-family: OpenSans;
+            src: url(fonts/OpenSans-Bold.ttf);
+            font-style: normal; 
+            font-weight: bold; 
+        }
+        @font-face {
+            font-family: OpenSans;
+            src: url(fonts/OpenSans-Italic.ttf);
+            font-style: italic; 
+            font-weight: normal; 
+        }
+    </style>
+</head>
+<body class="main">
+    <header class="main-header">
+        <section class="main-header__logo logo">
+            <img src="./images/logo.svg" class="logo__img" alt="directum" width="148" height="32"/>
+        </section>
+        <section class="main-header__product-card">
+            <div class="product-card">
+                <h3 class="product-card__title">Продукт 1</h3>
+                <p class="product-card__description">Краткое описание</p>
+                <ul class="product-card__menu">
+                    <li class="product-card__menu-item"><a href="#" class="product-card__menu-link">Пункт меню 1</a></li>
+                    <li class="product-card__menu-item"><a href="#" class="product-card__menu-link">Пункт меню 2</a></li>
+                    <li class="product-card__menu-item"><a href="#" class="product-card__menu-link">Пункт меню 3</a></li>
+                </ul>
+            </div>
+            <form class="main-header__search-form search-form">
+                <div class="search-form__wrapper">
+                    <input class="search-form__input" type="text" placeholder="Поиск">
+                    <img class="search-form__search-img" src="./images/search.svg" alt="Поиск"/>
+                </div>
+            </form>
+        </section>
+    </header>
+    <main class="container">
+        <section class="caption">
+            <h1 class="caption__title">Заголовок</h1>
+            <p class="caption__text">Текст текст текст</p>
+        </section>
+        <section class="content__wrapper">
+            <article class="content__article article">
+                <h3 class="article__title">Заголовок</h3>
+                <p class="article__text">Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок
+                    статьи Текстовый блок статьи Текстовый блок статьи</p>
+                <ul class="article__gallery">
+                    <li class="article__gallery-item"><img class="article__gallery-img" src="./images/cat.jpg" alt="кот" width="100" height="100"/></li>
+                    <li class="article__gallery-item"><img class="article__gallery-img" src="./images/cat.jpg" alt="кот" width="100" height="100"/></li>
+                    <li class="article__gallery-item"><img class="article__gallery-img" src="./images/cat.jpg" alt="кот" width="100" height="100"/></li>
+                </ul>
+                <p class="article__text">Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок статьи Текстовый блок
+                    статьи Текстовый блок статьи Текстовый блок статьи</p>
+            </article>
+            <aside class="banners">
+                <ul class="banners__list">
+                    <li class="banners__item banner"><h3 class="banner__title">Баннер 1</h3></li>
+                    <li class="banners__item banner"><h3 class="banner__title">Баннер 2</h3></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="social">
+            <h3 class="social__title">Подписывайтесь и читайте:</h3>
+            <ul class="social__list">
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-linkedin.svg" alt="linkedin"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-facebook.svg" alt="facebook"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-vkontakte.svg" alt="vkontakte"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-twitter.svg" alt="twitter"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-google_plus.svg" alt="google_plus"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-youtube.svg" alt="youtube"></a>
+                </li>
+                <li class="social__item">
+                    <a><img class="social__img" src="./images/social/-e-email.svg" alt="email"></a>
+                </li>
+            </ul>
+        </section>
+        <section class="footer-menu">
+            <ul class="footer-menu__list">
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 1</a></li>
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 2</a></li>
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 3</a></li>
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 4</a></li>
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 5</a></li>
+                <li class="footer-menu__list-item"><a href="#" class="footer-menu__link">Пункт меню 6</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var searchForm = document.querySelector(".main-header__search-form");
+            var searchInput = document.querySelector(".search-form__input");
+
+            if(searchForm && searchInput) {
+                searchInput.addEventListener("click", function() {
+                    searchForm.style.flexBasis = "100%";
+                });
+                searchInput.addEventListener("blur", function() {
+                    searchForm.style.flexBasis = "170px";
+                });
+            }
+        });
+    </script>
+</body>
+</html>
