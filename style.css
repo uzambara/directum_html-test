@@ -120,6 +120,7 @@ body * {
     padding-right: 26px;
     flex: 0 1 235px;
     min-width: 170px;
+    transition: all 0.3s linear;
 }
 
 .search-form__wrapper {
