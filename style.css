@@ -115,6 +115,10 @@ body * {
     text-align: left;
 }
 
+.product-card__menu-link:hover {
+    opacity: 0.6;
+}
+
 .main-header__search-form {
     padding-top: 50px;
     padding-right: 26px;
@@ -378,4 +382,8 @@ body * {
     letter-spacing: normal;
     text-align: left;
     color: #4490ca;
+}
+
+.footer-menu__link:hover {
+    opacity: 0.6;
 }
