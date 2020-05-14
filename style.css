@@ -162,7 +162,7 @@ body * {
     position: absolute;
     width: 20px;
     height: 19px;
-    background-image: url("/images/search.svg");
+    background-image: url("./images/search.svg");
     background-repeat: no-repeat;
     right: 8px;
     top: 7px;
@@ -171,7 +171,7 @@ body * {
 .caption {
     width: 100%;
     min-height: 340px;
-    background-image: url("/images/cover.jpg");
+    background-image: url("./images/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 113px;
