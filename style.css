@@ -310,9 +310,12 @@ body * {
     margin: 0;
 }
 
+.footer__social {
+    max-width: 560px;;
+}
+
 .social {
     display: flex;
-    width: 560px;
     min-height: 68px;
     background-color: #f0f0f0;
     align-items: center;
