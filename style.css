@@ -1,11 +1,16 @@
-body {
-    margin: 9px 10px;
-    min-width: 700px;
+html {
+    display: flex;
+    min-height: 100vh;
 }
 
-html, body {
-    min-height: 100vh;
-  }
+body {
+    min-width: 700px;
+    max-width: 1900px;
+    margin: 9px auto;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
 
 body * {
     box-sizing: border-box;
