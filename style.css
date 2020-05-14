@@ -370,6 +370,7 @@ body * {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex: 1 0 680px;
 }
 
 .footer-menu__list-item {
