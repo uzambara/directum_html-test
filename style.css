@@ -27,11 +27,6 @@ body * {
     overflow: hidden;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
 .main .container {
     flex: 1 0 auto;
 }
@@ -353,6 +348,7 @@ body * {
     margin: 0 auto;
     display: flex;
     flex-shrink: 0;
+    max-width: 1260px;
 }
 
 .footer-menu {
@@ -370,7 +366,6 @@ body * {
     list-style: none;
     padding: 0;
     margin: 0;
-    flex: 1 0 680px;
 }
 
 .footer-menu__list-item {
